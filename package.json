@@ -1,0 +1,30 @@
+{
+  "name": "stylelint-custom-rules",
+  "version": "1.0.0",
+  "description": "custom rules for leo tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "node src/rules/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leo-tools/stylelint-custom-rules.git"
+  },
+  "keywords": [
+    "stylint",
+    "rule",
+    "custom"
+  ],
+  "author": "tc9011",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leo-tools/stylelint-custom-rules/issues"
+  },
+  "homepage": "https://github.com/leo-tools/stylelint-custom-rules#readme",
+  "dependencies": {
+    "stylelint": "^13.13.1"
+  },
+  "devDependencies": {
+    "stylelint-test-rule-tape": "^0.2.0"
+  }
+}
