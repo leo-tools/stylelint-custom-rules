@@ -6,6 +6,9 @@
   "scripts": {
     "test": "node src/rules/index.js"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/leo-tools/stylelint-custom-rules.git"
