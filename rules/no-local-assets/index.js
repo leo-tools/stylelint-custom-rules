@@ -3,7 +3,7 @@ const ruleMessages = require('stylelint/lib/utils/ruleMessages')
 const validateOptions = require('stylelint/lib/utils/validateOptions')
 const {isRegExp, isString, isBoolean} = require('../utils')
 
-const ruleName = '@leo-tools/no-local-assets'
+const ruleName = 'no-local-assets'
 
 const messages = ruleMessages(ruleName, {
   rejected: () => `Unexpected local assets defined, Please use cdn`

@@ -10,8 +10,15 @@ function isBoolean (o){
   return o && Object.prototype.toString.call(o) === '[object Boolean]'
 }
 
+const prefix = '@leo-tools';
+
+function namespace(ruleName) {
+  return `${prefix}/${ruleName}`
+}
+
 module.exports = {
   isRegExp,
   isString,
-  isBoolean
+  isBoolean,
+  namespace
 }

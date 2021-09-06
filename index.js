@@ -1,7 +1,10 @@
 const { createPlugin } = require('stylelint')
-
+const { namespace } = require('./rules/utils')
 const rules = require('./rules')
 
-module.exports = [
-  createPlugin('@leo-tools/stylelint-custom-rules', rules['@leo-tools/no-local-assets']),
-]
+const rulesPlugins = Object.keys(rules).map((ruleName) => {
+  return createPlugin(namespace(ruleName), rules[ruleName]);
+})
+
+
+module.exports = rulesPlugins
