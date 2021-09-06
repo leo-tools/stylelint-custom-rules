@@ -1,5 +1,5 @@
 {
-  "name": "stylelint-custom-rules",
+  "name": "@leo-tools/stylelint-custom-rules",
   "version": "1.0.0",
   "description": "custom rules for leo tool",
   "main": "index.js",
