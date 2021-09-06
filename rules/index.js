@@ -1,3 +1,3 @@
 module.exports = {
-  'no-local-assets': require('./no-local-assets'),
+  '@leo-tools/no-local-assets': require('./no-local-assets'),
 }

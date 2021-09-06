@@ -1,7 +1,7 @@
 const testRule = require('stylelint-test-rule-tape')
 
 const rules = require('../../rules')
-const rule = rules['no-local-assets']
+const rule = rules['@leo-tools/no-local-assets']
 
 testRule(rule, {
   ruleName: rule.ruleName,
