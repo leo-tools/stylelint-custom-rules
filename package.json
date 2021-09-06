@@ -1,10 +1,12 @@
 {
   "name": "@leo-tools/stylelint-custom-rules",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "custom rules for leo tool",
   "main": "index.js",
   "scripts": {
-    "test": "node src/rules/index.js"
+    "test": "node rules/index.js",
+    "release": "standard-version",
+    "push": "npm run test && npm run release && git push --follow-tags origin master && npm publish"
   },
   "publishConfig": {
     "access": "public"
@@ -28,6 +30,7 @@
     "stylelint": "^13.13.1"
   },
   "devDependencies": {
+    "standard-version": "^9.3.1",
     "stylelint-test-rule-tape": "^0.2.0"
   }
 }
