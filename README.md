@@ -13,12 +13,12 @@ yarn add @leo-tools/stylelint-custom-rules -D
 ```json
 {
   "plugins": [
-    "leo-tools/stylelint-custom-rules"
+    "@leo-tools/stylelint-custom-rules"
   ],
   "rules": {
-    "lego/no-local-assets": ["asset"]
+    "@leo-tools/no-local-assets": true // By default is 'asset' 
     // OR
-    // "lego/no-local-assets": true, // By default is 'asset' 
+    // "@leo-tools/no-local-assets": ['static'],
     // OR
     // "lego/no-local-assets": [/static\/assets/],
   }
