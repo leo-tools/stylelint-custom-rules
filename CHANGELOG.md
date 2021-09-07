@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.8](https://github.com/leo-tools/stylelint-custom-rules/compare/v1.1.7...v1.1.8) (2021-09-07)
+
+
+### Bug Fixes
+
+* action script ([ebd9bd6](https://github.com/leo-tools/stylelint-custom-rules/commit/ebd9bd67ed529eb19b059054d8a0568dc20ecbb5))
+
 ### [1.1.7](https://github.com/leo-tools/stylelint-custom-rules/compare/v1.1.6...v1.1.7) (2021-09-07)
 
 
