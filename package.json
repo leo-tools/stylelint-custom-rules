@@ -6,7 +6,7 @@
   "scripts": {
     "test": "node rules/index.js",
     "release": "standard-version",
-    "push": "npm run test && npm run release && git push --follow-tags origin master && npm publish"
+    "push": "npm run test && npm run release && git push --follow-tags origin master"
   },
   "publishConfig": {
     "access": "public"
