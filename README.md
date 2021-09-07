@@ -1,4 +1,5 @@
 # stylelint-custom-rules
+![](https://img.shields.io/github/release/leo-tools/stylelint-custom-rules.svg)   ![npm](https://img.shields.io/npm/dm/@leo-tools/stylelint-custom-rules)
 
 some custom stylelint rules
 
