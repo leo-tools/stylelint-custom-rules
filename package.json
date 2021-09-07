@@ -1,6 +1,6 @@
 {
   "name": "@leo-tools/stylelint-custom-rules",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "description": "custom rules for leo tool",
   "main": "index.js",
   "scripts": {
